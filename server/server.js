@@ -42,4 +42,5 @@ app.post('/', async(req,res)=>{
   }
 })
 
+const PORT = process.env.PORT || 5000;
 app.listen(5000,()=>{console.log('running on port 5000')})
